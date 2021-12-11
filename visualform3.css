@@ -1,0 +1,97 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Apercu, sans-serif;
+    background-color: #FDF5E6;
+}
+form {
+    max-width: 500px;
+    width: 70%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.cadastro {
+    padding: 5%;
+    
+    background-color: #FFFAFA;
+    border-radius: 2px;
+    height:25em;
+}
+h2 {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+p{
+    padding-bottom: 8px;
+    font-size: 14px;
+    color:#838B83;
+    font-family: sans-serif;
+    text-align: center;
+}
+form input[type=email] {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border:2px solid #eee;
+    
+}
+form input[type=password] {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border:2px solid #eee;
+}
+legend {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+form input[type=submit]{
+    width: 100%;
+    height: 40px;
+    border-radius: 18px;
+    background-color: blue;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: blue;
+
+}
+.titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #FFFAFA;
+    height: 60px;
+    padding-top: 15px;
+    padding-left: 9px;
+    border-radius: 7px;
+}
+.senha {
+    color: #FF8C00;
+    font-size: 14px;
+    font-family: sans-serif;
+    
+}
+.link {
+    color: #FF8C00;
+    font-size: 14px;
+    
+}
+.button {
+    width: 100%;
+    height: 40px;
+    border-radius: 18px;
+    background-color: #EEE9E9;
+    color: black;
+    font-family: Andale Mono, monospace;
+    border: #eee;
+
+
+
+}
